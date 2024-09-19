@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 80%;
+  background-color: rgb(182, 164, 201);
+  padding: 34px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.container h3 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+p {
+  text-align: center;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 16px;
+}
+input,
+textarea {
+  width: 80%;
+  margin: 5px auto;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+  outline: none;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #fff;
+  background: rgb(245, 101, 245);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+body {
+  background-image: url("images.jpg");
+  height: 100vh;
+  display: flex;
+  opacity: 0.8;
+}
